@@ -64,7 +64,7 @@ const approvals = [
 const integrations = [
   { name: "Linear", detail: "Connected through Hermes MCP", state: "connected", icon: ListChecks },
   { name: "Netlify", detail: "MCP connected; repo deploy pending", state: "partial", icon: GitBranch },
-  { name: "Supabase", detail: "CLI linked to Sales Dashboard V1; MCP OAuth pending", state: "partial", icon: Database },
+  { name: "Supabase", detail: "CLI linked; Hermes schema applied; MCP OAuth pending", state: "partial", icon: Database },
   { name: "Google Drive", detail: "Codex connected; OS and client folders created", state: "connected", icon: FolderOpen },
   { name: "Obsidian", detail: "Local vault created and attached to Hermes project", state: "connected", icon: FileText },
   { name: "Slack", detail: "Manifest ready; app install pending", state: "pending", icon: MessageSquare },
